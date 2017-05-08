@@ -2,6 +2,7 @@
   "name": "react-recipe-box",
   "version": "0.1.0",
   "private": true,
+    "homepage": "https://www.pakkianlew.com/apps/react/arecipebox",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "react": "^15.5.4",
@@ -14,7 +15,7 @@
     "npm-run-all": "^4.0.2",
     "react-scripts": "0.9.5"
   },
-  "scripts": {
+  "scripts": {  
     "build-css": "node-sass src/ -o src/",
     "watch-css": "npm run build-css && node-sass src/ -o src/ --watch --recursive",
     "start-js": "react-scripts start",

@@ -63,7 +63,7 @@ class RecipeItem extends Component {
 									recipe={this.props.recipe}
 									actionLabel={"Edit Recipe"}
 									handleClick={this.props.updateRecipe}
-									index={index}
+									index={this.props.index}
 									closeModal={this.close}
 								/>
 							</Modal.Body>
